@@ -3,7 +3,7 @@ import time
 import math
 import numpy as np
 import threading
-from typing import Generator, Optional, Dict, Any, List
+from typing import Generator, Optional, Dict, Any, List, Tuple
 from datetime import datetime
 
 from app.schemas import TelemetryResponse, Violation, WorkerStatus, ROIConfig, ROIPoint
