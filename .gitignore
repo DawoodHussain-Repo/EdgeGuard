@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Tooling
+.vscode/
+.idea/
+.gemini/
+*.swp
+
+# Weights / Models downloaded at runtime
+*.pt
+weights/clip/
+!weights/README.md
+
+# Design skills CLI outputs
+design-skills/.agents/
+design-skills/skills-lock.json

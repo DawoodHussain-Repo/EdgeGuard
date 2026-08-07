@@ -20,6 +20,8 @@
 - [x] Phase 3 Git Commit: Implemented YOLO+ByteTrack vision pipeline (`app/vision.py`) and FastAPI MJPEG stream & telemetry routes (`app/main.py`).
 - [x] Phase 4 Git Commit: Implemented modern web telemetry dashboard UI (`app/static/*`).
 - [x] Phase 5 Git Commit: Added `Dockerfile`, `requirements.txt`, `weights/README.md`, and comprehensive `README.md`.
+- [x] Phase 6 Modular Refactor: Enforced <250 LOC per file limit, separated concerns into `app/core/`, `app/vision/`, `app/api/`, fixed broken imports, and cleaned up monolithic files.
+- [x] Phase 7 Docker, Testing & CI/CD: Created `.dockerignore`, updated production `Dockerfile`, implemented 16 unit & integration tests in `tests/` (100% passing), and added `.github/workflows/ci.yml` GitHub Actions pipeline.
 
 ## Architecture Decisions
 

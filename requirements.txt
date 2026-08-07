@@ -1,6 +1,14 @@
+# Core Vision & AI Pipeline
 ultralytics>=8.1.0
-fastapi>=0.110.0
-uvicorn[standard]>=0.28.0
 opencv-python-headless>=4.9.0.80
 numpy>=1.26.0
+
+# Backend & Web Framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
 pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# Testing & Quality Assurance
+pytest>=8.0.0
+httpx>=0.27.0
