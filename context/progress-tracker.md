@@ -2,11 +2,11 @@
 
 ## Current Phase
 
-- **In Progress: Phase 3 (Vision Pipeline & FastAPI Streaming)**
+- **In Progress: Phase 4 (Modern Telemetry Web Dashboard UI)**
 
 ## Current Goal
 
-- Implement `app/vision.py` (YOLO+ByteTrack inference loop, synthetic stream fallback, OpenCV drawing engine) and `app/main.py` (FastAPI app, MJPEG stream, Telemetry endpoint).
+- Implement `app/static/index.html`, `app/static/styles.css`, and `app/static/app.js` providing a high-impact, dark-themed industrial command-center web dashboard.
 
 ## Completed
 
@@ -17,14 +17,14 @@
 - [x] Defined AI workflow & git strategy and updated `context/ai-workflow-rules.md`.
 - [x] Phase 1 Git Commit: Initialized Git & committed context documentation.
 - [x] Phase 2 Git Commit: Implemented Pydantic v2 schemas (`app/schemas.py`) and spatial compliance rules engine (`app/rules.py`).
+- [x] Phase 3 Git Commit: Implemented YOLO+ByteTrack vision pipeline (`app/vision.py`) and FastAPI MJPEG stream & telemetry routes (`app/main.py`).
 
 ## In Progress
 
-- [ ] Phase 3: Vision pipeline & FastAPI streaming endpoints (`app/vision.py`, `app/main.py`).
+- [ ] Phase 4: Modern Telemetry Web Dashboard UI (`app/static/index.html`, `app/static/styles.css`, `app/static/app.js`).
 
 ## Next Up
 
-- Phase 4: Modern Telemetry Web Dashboard (`app/static/*`).
 - Phase 5: Docker Containerization (`Dockerfile`, `requirements.txt`, `README.md`).
 
 ## Architecture Decisions
