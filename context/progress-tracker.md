@@ -2,11 +2,11 @@
 
 ## Current Phase
 
-- **In Progress: Phase 1 (Context Documentation & Git Initialization)**
+- **In Progress: Phase 3 (Vision Pipeline & FastAPI Streaming)**
 
 ## Current Goal
 
-- Finalize context files, initialize git, set remote to `https://github.com/DawoodHussain-Repo/EdgeGuard.git`, and make initial commit.
+- Implement `app/vision.py` (YOLO+ByteTrack inference loop, synthetic stream fallback, OpenCV drawing engine) and `app/main.py` (FastAPI app, MJPEG stream, Telemetry endpoint).
 
 ## Completed
 
@@ -15,15 +15,15 @@
 - [x] Defined UI design language and updated `context/ui-context.md`.
 - [x] Defined coding standards and updated `context/code-standards.md`.
 - [x] Defined AI workflow & git strategy and updated `context/ai-workflow-rules.md`.
+- [x] Phase 1 Git Commit: Initialized Git & committed context documentation.
+- [x] Phase 2 Git Commit: Implemented Pydantic v2 schemas (`app/schemas.py`) and spatial compliance rules engine (`app/rules.py`).
 
 ## In Progress
 
-- [ ] Git repository initialization, remote origin setup, and Phase 1 initial commit.
-- [ ] Phase 2: Core Schemas (`app/schemas.py`) & Spatial Compliance Rules Engine (`app/rules.py`).
+- [ ] Phase 3: Vision pipeline & FastAPI streaming endpoints (`app/vision.py`, `app/main.py`).
 
 ## Next Up
 
-- Phase 3: Vision Pipeline & FastAPI Streaming (`app/vision.py`, `app/main.py`).
 - Phase 4: Modern Telemetry Web Dashboard (`app/static/*`).
 - Phase 5: Docker Containerization (`Dockerfile`, `requirements.txt`, `README.md`).
 
